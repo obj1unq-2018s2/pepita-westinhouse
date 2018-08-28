@@ -1,9 +1,10 @@
+import comidas.*
 
 object pepon {
 	var energia = 0	
-	
-	method comer(cosa, cuanto) {
 		
+	method comer(cosa, cuanto) {
+		energia += cosa * (1/2 * cuanto)
 	}  
 	method volar(kms) { 
 		energia -= 1.5 * kms
@@ -13,12 +14,17 @@ object pepon {
 	} 
 }
 
-// implementar el objeto entero, salvo haceLoQueQuieras que lo damos hecho
-// ayuda: conviene ponerle dos atributos
+
 object pipa {
-	/*
-	 * cuando le dicen a pipa que haga lo que quiera, no hace nada
-	 */
+	var kilometros = 0
+	var gramosComida = 0
+	
+	method volar(kms){
+		kilometros += kms
+	}
+	method comer(gramos){
+		gramosComida += gramos
+	}	
 	method haceLoQueQuieras() { }   // queda asi
 	// pregunta: ¿por qué es necesario agregar este método, sin código
-}
+}   // respuesta: Porque es necesario que el método exista para poder llamarlo, independientemente de lo que haga.

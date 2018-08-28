@@ -1,10 +1,9 @@
 /*
  * Copiar pepita.wlk y comidas.wlk desde etapa2
  */
-// import pepita.*
-// import comidas.*
+ import pepita.*
+ import comidas.*
 
-import Enunciado_2.*
 
 object roque {
 	method entrenar(ave) { 		
