@@ -1,3 +1,5 @@
+// TODO Este archivo me confunde, ¿por qué está dos veces el código? ¿tengo que mirar este o el otro?
+// Por favor evitemos este tipo de confusiones.
 object pepita {
 	
 	var energia = 0

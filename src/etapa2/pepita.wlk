@@ -15,6 +15,7 @@ object pepita {
 	method energia(){
 		return energia
 	}
+	// TODO El resto de los métodos usan camelCase, respetá la convención.
 	method esta_debil(){
 		return energia < 50
 	}
@@ -48,6 +49,7 @@ object pepita {
 			self.comer(alpiste, 20)
 		}
 		else{
+			// Esto no tiene ningún efecto, ¿para qué lo hacés?
 			energia == self.energia()
 		}
 		

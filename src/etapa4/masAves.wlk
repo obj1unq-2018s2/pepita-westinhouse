@@ -7,6 +7,7 @@ object pepon {
 		energia += cosa * (1/2 * cuanto)
 	}  
 	method volar(kms) { 
+		// TODO No es lo pedido
 		energia -= 1.5 * kms
 	}
 	method haceLoQueQuieras() {
